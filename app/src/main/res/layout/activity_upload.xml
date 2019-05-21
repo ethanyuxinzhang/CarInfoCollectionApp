@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AC_model"
+        android:text="@string/user_AC_model"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:text="@string/user_AC_cool"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/checkBox_Cool"
+        android:layout_below="@+id/AC_model"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <CheckBox
+        android:text="@string/user_AC_heat"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox_Heat"
+        android:layout_alignBaseline="@+id/checkBox_Cool"
+        android:layout_alignBottom="@+id/checkBox_Cool"
+        android:layout_toRightOf="@+id/checkBox_Cool"
+        android:layout_toEndOf="@+id/checkBox_Cool"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AC_status"
+        android:text="@string/user_AC_status"
+        android:textSize="30sp"
+        android:layout_below="@+id/checkBox_Cool"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/AC_layout"
+        android:layout_below="@+id/AC_status"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status0"
+            android:text="0"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status1"
+            android:text="1"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_toRightOf="@+id/status0"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status2"
+            android:text="2"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/status1"
+            android:layout_alignBottom="@+id/status1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/status1"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status3"
+            android:text="3"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/status2"
+            android:layout_alignBottom="@+id/status2"
+            android:layout_toRightOf="@+id/status2"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/status_auto"
+            android:text="AUTO"
+            android:textSize="15sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/status3"
+            android:layout_alignBottom="@+id/status3"
+            android:layout_toRightOf="@+id/status3"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:elevation="0dp" />
+    </LinearLayout>
+
+    <!--    <Spinner
+            android:layout_width="200sp"
+            android:layout_height="35sp"
+            android:id="@+id/Spinner_AC"
+            android:layout_below="@+id/AC_status"
+            android:layout_alignLeft="@+id/checkBox_Cool"
+            android:layout_alignStart="@+id/checkBox_Cool"
+            android:layout_marginTop="15dp" />-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passenger"
+        android:text="@string/user_passenger"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/AC_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/passenger_layout"
+        android:layout_below="@+id/passenger"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passenger0"
+            android:text="0"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passenger1"
+            android:text="1"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_toRightOf="@+id/passenger0"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passenger2"
+            android:text="2"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/passenger1"
+            android:layout_alignBottom="@+id/passenger1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/passenger1"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passenger3"
+            android:text="3"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/passenger2"
+            android:layout_alignBottom="@+id/passenger2"
+            android:layout_toRightOf="@+id/passenger2"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passenger4"
+            android:text="4"
+            android:textSize="30sp"
+            android:background="@drawable/status_selector"
+            android:layout_alignBaseline="@+id/passenger3"
+            android:layout_alignBottom="@+id/passenger3"
+            android:layout_toRightOf="@+id/passenger3"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!--   <Spinner
+            android:layout_width="200sp"
+            android:layout_height="35sp"
+            android:id="@+id/Spinner_Passenger"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/passenger" />-->
+
+    <Button
+        android:textSize="30sp"
+        android:text="@string/btn_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_log"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/passenger_layout"
+        android:layout_toLeftOf="@+id/checkBox_Heat"
+        android:layout_toStartOf="@+id/checkBox_Heat" />
+
+    <Button
+        android:text="@string/btn_upload"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_upload"
+        android:background="@drawable/button_selector"
+        android:layout_above="@+id/tv_GPS"
+        android:layout_alignRight="@+id/checkBox_Heat"
+        android:layout_alignEnd="@+id/checkBox_Heat" />
+
+    <TextView
+        android:id="@+id/re_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_upload"
+        android:layout_alignEnd="@+id/checkBox_Heat"
+        android:layout_alignRight="@+id/checkBox_Heat"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:clickable="true"
+        android:text="重新注册" />
+
+    <TextView
+        android:id="@+id/re_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_below="@+id/passenger_layout"
+        android:layout_toLeftOf="@+id/checkBox_Heat"
+        android:layout_toStartOf="@+id/checkBox_Heat"
+        android:clickable="true"
+        android:text="重置Wifi信息" />
+
+    <TextView
+        android:id="@+id/tv_GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_log"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/GPS_status"
+        android:textSize="15sp" />
+
+</RelativeLayout>

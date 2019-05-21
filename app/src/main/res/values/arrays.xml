@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_array">
+        <item>0档</item>
+        <item>1档</item>
+        <item>2档</item>
+        <item>3档</item>
+        <item>4档</item>
+    </string-array>
+    <string-array name="passenger_array">
+        <item>0人</item>
+        <item>1人</item>
+        <item>2人</item>
+        <item>3人</item>
+        <item>4人</item>
+    </string-array>
+</resources>
