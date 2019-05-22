@@ -27,6 +27,7 @@ public class ExitApplication extends Application {
     public void addActivity(Activity activity){
         activityList.add(activity);
     }
+
     public void exit(){
         for(Activity activity:activityList){
             activity.finish();

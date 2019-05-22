@@ -143,8 +143,20 @@ public class UploadActivity extends AppCompatActivity {
         //Check wifi and initiate Udphelper
 
         if(checkWifi().isWifiEnabled()){
+
+//            if(wifiReceiver == null){
+//                wifiReceiver = new WifiReceiver();
+//            }
+//
+//            IntentFilter filter = new IntentFilter();
+//            filter.addAction(WifiManager.NETWORK_STATE_CHANGED_ACTION);
+//            filter.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
+//            filter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
+//            registerReceiver(wifiReceiver, filter);
+
             sendFlag = true;
             udpHelper = new UdpHelper(checkWifi());
+
         }else{
             Toast.makeText(UploadActivity.this, "请连接wifi ", Toast.LENGTH_SHORT).show();
         }
@@ -173,7 +185,7 @@ public class UploadActivity extends AppCompatActivity {
 
         checkButton();
         //init sendMsg
-        sendMsg = SendMsgFormattor();
+        sendMsg = SendMsgFormator();
 
         if (AC_status == "" && Passengers == "") {
             tv_AC_model.setText("空调模式：未选择");
@@ -321,14 +333,14 @@ public class UploadActivity extends AppCompatActivity {
                     isCoolPressed = true;
                     isHeatPressed = false;
                     cb_Heat.setChecked(false);
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     tv_AC_model.setText("空调模式：制冷");
                 } else {
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     isCoolPressed = false;
                 }
                 if (!isCoolPressed && !isHeatPressed) {
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     tv_AC_model.setText("空调模式：关闭");
                 }
 
@@ -341,14 +353,14 @@ public class UploadActivity extends AppCompatActivity {
                     isHeatPressed = true;
                     isCoolPressed = false;
                     cb_Cool.setChecked(false);
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     tv_AC_model.setText("空调模式：制热");
                 } else {
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     isHeatPressed = false;
                 }
                 if (!isCoolPressed && !isHeatPressed) {
-                    sendMsg = SendMsgFormattor();
+                    sendMsg = SendMsgFormator();
                     tv_AC_model.setText("空调模式：关闭");
                 }
             }
@@ -372,7 +384,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_status_auto.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
                 for(int i = 0; i < 3; i++){
-                    refreshData(SendMsgFormattor(),sendPort,sendIPAddress);
+                    refreshData(SendMsgFormator(),sendPort,sendIPAddress);
                 }
             }
         });
@@ -394,7 +406,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_status3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_status_auto.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -418,7 +430,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_status3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_status_auto.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -442,7 +454,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_status0.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_status_auto.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -466,7 +478,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_status2.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_status3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -491,7 +503,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_passenger3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_passenger4.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -515,7 +527,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_passenger3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_passenger4.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
 
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
@@ -540,7 +552,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_passenger4.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
                 }
@@ -563,7 +575,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_passenger0.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_passenger4.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
                 }
@@ -586,7 +598,7 @@ public class UploadActivity extends AppCompatActivity {
                 btn_passenger3.setBackground(getResources().getDrawable(R.drawable.shape_gray));
                 btn_passenger0.setBackground(getResources().getDrawable(R.drawable.shape_gray));
 
-                sendMsg = SendMsgFormattor();
+                sendMsg = SendMsgFormator();
                 for(int i = 0; i < 3; i++){
                     refreshData(sendMsg,sendPort,sendIPAddress);
                 }
@@ -974,7 +986,7 @@ public class UploadActivity extends AppCompatActivity {
                             builder.setCancelable(false);
                             dialog.dismiss();
                             System.out.println("Info: " + name + " " + model + " " + plate);
-                            sendMsg = SendMsgFormattor();
+                            sendMsg = SendMsgFormator();
                         } else {
                             writeButton();
                             Toast.makeText(UploadActivity.this, R.string.alert, Toast.LENGTH_SHORT).show();
@@ -1051,7 +1063,7 @@ public class UploadActivity extends AppCompatActivity {
                 try{
                     while(sendFlag){
                         sleep(sendDelay);
-                        sendMsg = SendMsgFormattor();
+                        sendMsg = SendMsgFormator();
                         refreshData(sendMsg,sendPort,sendIPAddress);
                     }
                 }catch (InterruptedException e){
@@ -1126,7 +1138,7 @@ public class UploadActivity extends AppCompatActivity {
 
     }
 
-    public String SendMsgFormattor(){
+    public String SendMsgFormator(){
         String header = "AHAU";
         //phone time
         java.text.SimpleDateFormat formatter = new java.text.SimpleDateFormat("yyyy_MM_dd HH:mm:ss");
@@ -1293,10 +1305,10 @@ public class UploadActivity extends AppCompatActivity {
 
                         String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                         if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
-                            sendMsg = SendMsgFormattor();
+                            sendMsg = SendMsgFormator();
                             tv_GPS.setText("");
                         } else {
-                            sendMsg = SendMsgFormattor();
+                            sendMsg = SendMsgFormator();
                             tv_GPS.setText(UTCtime + "; " + speed + "; " + "\r\n" + String.valueOf(latitude) + "; " + String.valueOf(longitude));
                         }
                         System.out.println(String.valueOf(latitude) + "; " +
@@ -1314,10 +1326,10 @@ public class UploadActivity extends AppCompatActivity {
                             case LocationProvider.AVAILABLE:
                                 String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                                 if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
-                                    sendMsg = SendMsgFormattor();
+                                    sendMsg = SendMsgFormator();
                                     tv_GPS.setText("");
                                 } else {
-                                    sendMsg = SendMsgFormattor();
+                                    sendMsg = SendMsgFormator();
                                     tv_GPS.setText(UTCtime + "; " + speed + "; " + "\r\n" + String.valueOf(latitude) + "; " + String.valueOf(longitude));
                                 }
                                 break;
@@ -1325,7 +1337,7 @@ public class UploadActivity extends AppCompatActivity {
                             case LocationProvider.OUT_OF_SERVICE:
                                 //String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                                 if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
-                                    sendMsg = SendMsgFormattor();
+                                    sendMsg = SendMsgFormator();
                                     tv_GPS.setText("");
                                 }
                                 break;
@@ -1333,7 +1345,7 @@ public class UploadActivity extends AppCompatActivity {
                             case LocationProvider.TEMPORARILY_UNAVAILABLE:
                                 //String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                                 if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
-                                    sendMsg = SendMsgFormattor();
+                                    sendMsg = SendMsgFormator();
                                     tv_GPS.setText("");
                                 }
                                 break;
@@ -1346,10 +1358,10 @@ public class UploadActivity extends AppCompatActivity {
                         isGPSEnable = true;
                         String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                         if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
-                            sendMsg = SendMsgFormattor();
+                            sendMsg = SendMsgFormator();
                             tv_GPS.setText("");
                         } else {
-                            sendMsg = SendMsgFormattor();
+                            sendMsg = SendMsgFormator();
                             tv_GPS.setText(UTCtime + "; " + speed + "; " + "\r\n" + String.valueOf(latitude) + "; " + String.valueOf(longitude));
                         }
 
@@ -1586,7 +1598,7 @@ public class UploadActivity extends AppCompatActivity {
         filter.addAction(WifiManager.NETWORK_STATE_CHANGED_ACTION);
         filter.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
         filter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
-        registerReceiver(new WifiReceiver(), filter);
+        registerReceiver(wifiReceiver, filter);
 
         super.onResume();
     }
