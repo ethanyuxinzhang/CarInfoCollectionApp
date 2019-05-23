@@ -98,12 +98,13 @@ public class UploadActivity extends AppCompatActivity {
 
     //init wifi
     static boolean sendFlag = false;
+    static boolean tcpFlag = false;
     static int sendDelay = 10*1000;
     static String sendMsg = "NULL";
     static int sendPort = 8904;
     static String sendIPAddress = "255.255.255.255";
 
-    public UdpHelper udpHelper;
+//    public UdpHelper udpHelper;
     public TcpHelper tcpHelper;
 
     WifiReceiver wifiReceiver;
@@ -156,12 +157,19 @@ public class UploadActivity extends AppCompatActivity {
 //            registerReceiver(wifiReceiver, filter);
 
             sendFlag = true;
-            udpHelper = new UdpHelper(checkWifi());
+//            udpHelper = new UdpHelper(checkWifi());
             try{
                 tcpHelper = new TcpHelper(sendIPAddress, sendPort);
             }catch (IOException e){
                 e.printStackTrace();
-                System.out.println("TCP Socket Initation Problems");
+                System.out.println("TCP Socket Initiation Problems");
+                Toast.makeText(UploadActivity.this, "请先开启服务器，再打开APP！", Toast.LENGTH_LONG).show();
+            }
+
+            if(tcpHelper == null){
+                tcpFlag = false;
+            }else{
+                tcpFlag = true;
             }
 
 
@@ -1070,9 +1078,25 @@ public class UploadActivity extends AppCompatActivity {
             public void run(){
                 try{
                     while(sendFlag){
-                        sleep(sendDelay);
-                        sendMsg = SendMsgFormator();
-                        refreshData(sendMsg,sendPort,sendIPAddress);
+
+                        if(tcpHelper == null){
+                            try{
+                                tcpHelper = new TcpHelper(sendIPAddress, sendPort);
+                            }catch (IOException e){
+                                e.printStackTrace();
+                                System.out.println("TCP Socket Initiation Problems");
+//                                Toast.makeText(UploadActivity.this, "请先开启服务器，再打开APP！", Toast.LENGTH_LONG).show();
+                            }
+                            if(tcpHelper == null){
+                                tcpFlag = false;
+                            }else{
+                                tcpFlag = true;
+                            }
+                        }else{
+                            sleep(sendDelay);
+                            sendMsg = SendMsgFormator();
+                            refreshData(sendMsg,sendPort,sendIPAddress);
+                        }
                     }
                 }catch (InterruptedException e){
                     e.printStackTrace();
@@ -1549,13 +1573,18 @@ public class UploadActivity extends AppCompatActivity {
     }
 
     public void refreshData(String msg, int port, String IPAddr){
-        udpHelper.send(msg,port,IPAddr);
-        try{
-            tcpHelper.sendMsg(msg,IPAddr,port);
-        }catch (IOException e){
-            e.printStackTrace();
-            System.out.println("TCP MSG Send error!");
+//        udpHelper.send(msg,port,IPAddr);
+
+        if(tcpFlag){
+            try{
+                tcpHelper.sendMsg(msg,IPAddr,port);
+            }catch (IOException e){
+                e.printStackTrace();
+                System.out.println("TCP MSG Send error!");
+            }
         }
+
+
 
     }
 

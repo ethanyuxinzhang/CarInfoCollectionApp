@@ -41,13 +41,13 @@ public class SendEmail {
         mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
                 +dateTimeS.substring(8,10)+"日"+"-中国工况南京");//邮件主题*/
 
-        mailInfo.setToAddress("d_maxer@hotmail.com");//收件人邮箱
-        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
-                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题
-
-//        mailInfo.setToAddress("hefei@ahau.edu.cn");//收件人邮箱
+//        mailInfo.setToAddress("d_maxer@hotmail.com");//收件人邮箱
 //        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
 //                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题
+
+        mailInfo.setToAddress("hefei@ahau.edu.cn");//收件人邮箱
+        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
+                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题
 
         /*mailInfo.setToAddress("changchun@ahau.edu.cn");//收件人邮箱
         mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
