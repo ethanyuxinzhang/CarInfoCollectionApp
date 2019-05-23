@@ -19,6 +19,8 @@ public class SendEmail {
         mailInfo.setMailServerHost("smtp.163.com");
         mailInfo.setMailServerPort("25");
         mailInfo.setValidate(true);
+//        mailInfo.setUserName("hefei_ahau@163.com");//发件人邮箱账号（必须是163邮箱）
+//        mailInfo.setPassword("hefei2019");//发件人邮箱密码
         mailInfo.setUserName("du_kyseu@163.com");//发件人邮箱账号（必须是163邮箱）
         mailInfo.setPassword("dky2011106501");//发件人邮箱密码
         //设置发件人
@@ -29,6 +31,7 @@ public class SendEmail {
             e.printStackTrace();
         }
         mailInfo.setFromAddress(nick+"<du_kyseu@163.com>");//发件人昵称加邮箱
+//        mailInfo.setFromAddress(nick+"<hefei_ahau@163.com>");//发件人昵称加邮箱
 
         /*
         设置主题
@@ -38,17 +41,21 @@ public class SendEmail {
         mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
                 +dateTimeS.substring(8,10)+"日"+"-中国工况南京");//邮件主题*/
 
-        /*mailInfo.setToAddress("hefei@ahau.edu.cn");//收件人邮箱
+        mailInfo.setToAddress("d_maxer@hotmail.com");//收件人邮箱
         mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
-                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题*/
+                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题
+
+//        mailInfo.setToAddress("hefei@ahau.edu.cn");//收件人邮箱
+//        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
+//                +dateTimeS.substring(8,10)+"日"+"-中国工况合肥");//邮件主题
 
         /*mailInfo.setToAddress("changchun@ahau.edu.cn");//收件人邮箱
         mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
                 +dateTimeS.substring(8,10)+"日"+"-中国工况长春");//邮件主题*/
 
-        mailInfo.setToAddress("wwuhan@ahau.edu.cn");//收件人邮箱
-        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
-                +dateTimeS.substring(8,10)+"日"+"-中国工况南昌");//邮件主题
+//        mailInfo.setToAddress("wwuhan@ahau.edu.cn");//收件人邮箱
+//        mailInfo.setSubject(dateTimeS.substring(0,4)+"年"+dateTimeS.substring(5,7)+"月"
+//                +dateTimeS.substring(8,10)+"日"+"-中国工况南昌");//邮件主题
 
         /*//mailInfo.setToAddress("1053562781@qq.com");//收件人邮箱
         //mailInfo.setToAddress("hefei@ahau.edu.cn");//收件人邮箱

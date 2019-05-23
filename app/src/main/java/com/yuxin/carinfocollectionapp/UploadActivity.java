@@ -104,6 +104,7 @@ public class UploadActivity extends AppCompatActivity {
     static String sendIPAddress = "255.255.255.255";
 
     public UdpHelper udpHelper;
+    public TcpHelper tcpHelper;
 
     WifiReceiver wifiReceiver;
 
@@ -156,9 +157,16 @@ public class UploadActivity extends AppCompatActivity {
 
             sendFlag = true;
             udpHelper = new UdpHelper(checkWifi());
+            try{
+                tcpHelper = new TcpHelper(sendIPAddress, sendPort);
+            }catch (IOException e){
+                e.printStackTrace();
+                System.out.println("TCP Socket Initation Problems");
+            }
+
 
         }else{
-            Toast.makeText(UploadActivity.this, "请连接wifi ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(UploadActivity.this, "请连接wifi ", Toast.LENGTH_LONG).show();
         }
 
         tv_GPS = (TextView) findViewById(R.id.tv_GPS);
@@ -667,12 +675,12 @@ public class UploadActivity extends AppCompatActivity {
                 }
 
                 if (!isGrantExternalRW(UploadActivity.this)) {
-                    Toast.makeText(UploadActivity.this, "未授权，录入失败！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "未授权，录入失败！", Toast.LENGTH_LONG).show();
                     return;
                 }
 
                 if (!isNetworkConnected()) {
-                    Toast.makeText(UploadActivity.this, "未打开网络，录入失败！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "未打开网络，录入失败！", Toast.LENGTH_LONG).show();
                     new AlertDialog.Builder(UploadActivity.this)
                             .setTitle("请打开数据网络或Wi-Fi")
                             .setPositiveButton("确定",
@@ -729,12 +737,12 @@ public class UploadActivity extends AppCompatActivity {
                 if (!checkFileString(dataS, filePath, fileName)) {
                     if (writeTxtToFile(phoneTime, UTCtimeS, isCoolPressed, isHeatPressed, AC_status, Passengers,
                             longitudeS, latitudeS, speedS, filePath, fileName)) {
-                        Toast.makeText(UploadActivity.this, "录入成功！", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(UploadActivity.this, "录入成功！", Toast.LENGTH_LONG).show();
                     } else {
-                        Toast.makeText(UploadActivity.this, "录入失败！", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(UploadActivity.this, "录入失败！", Toast.LENGTH_LONG).show();
                     }
                 } else {
-                    Toast.makeText(UploadActivity.this, "信息未修改", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "信息未修改", Toast.LENGTH_LONG).show();
                 }
 
                 writeButton();
@@ -798,11 +806,11 @@ public class UploadActivity extends AppCompatActivity {
                     UploadActivity.getsContext().stopService(intent);
                 }
                 if (!isGrantExternalRW(UploadActivity.this)) {
-                    Toast.makeText(UploadActivity.this, "未授权，上传失败！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "未授权，上传失败！", Toast.LENGTH_LONG).show();
                     return;
                 }
                 if (!isNetworkConnected()) {
-                    Toast.makeText(UploadActivity.this, "网络未打开，上传失败", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "网络未打开，上传失败", Toast.LENGTH_LONG).show();
                     new AlertDialog.Builder(UploadActivity.this)
                             .setTitle("请打开数据网络或Wi-Fi")
                             .setPositiveButton("确定",
@@ -855,18 +863,18 @@ public class UploadActivity extends AppCompatActivity {
                         }
                     }.start();
 
-                    Toast.makeText(UploadActivity.this, "上传成功！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "上传成功！", Toast.LENGTH_LONG).show();
                     writeButton();
                     Intent home = new Intent(Intent.ACTION_MAIN);
                     home.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     home.addCategory(Intent.CATEGORY_HOME);
                     startActivity(home);
                 } else {
-                    Toast.makeText(UploadActivity.this, "上传失败！", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(UploadActivity.this, "上传失败！", Toast.LENGTH_LONG).show();
                     return;
                 }
                 writeButton();
-                //Toast.makeText(UploadActivity.this, "录入成功！", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(UploadActivity.this, "录入成功！", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -1279,7 +1287,7 @@ public class UploadActivity extends AppCompatActivity {
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
 
-            Toast.makeText(UploadActivity.this, "位置信息未授权！", Toast.LENGTH_SHORT).show();
+            Toast.makeText(UploadActivity.this, "位置信息未授权！", Toast.LENGTH_LONG).show();
 
             return;
         }
@@ -1318,7 +1326,7 @@ public class UploadActivity extends AppCompatActivity {
 
                     @Override
                     public void onStatusChanged(String provider, int status, Bundle extras) {
-                        //Toast.makeText(UploadActivity.this, "GPS provide status changed", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(UploadActivity.this, "GPS provide status changed", Toast.LENGTH_LONG).show();
                         //Location location = locationManager.getLastKnownLocation(provider);
                         switch (status) {
 
@@ -1354,7 +1362,7 @@ public class UploadActivity extends AppCompatActivity {
 
                     @Override
                     public void onProviderEnabled(String provider) {
-                        //Toast.makeText(UploadActivity.this, "GPS provide is enabled", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(UploadActivity.this, "GPS provide is enabled", Toast.LENGTH_LONG).show();
                         isGPSEnable = true;
                         String UTCtime = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(time));
                         if (String.valueOf(latitude) == "0.0" && String.valueOf(longitude) == "0.0") {
@@ -1369,7 +1377,7 @@ public class UploadActivity extends AppCompatActivity {
 
                     @Override
                     public void onProviderDisabled(String s) {
-                        //Toast.makeText(UploadActivity.this, "GPS provide is disabled", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(UploadActivity.this, "GPS provide is disabled", Toast.LENGTH_LONG).show();
                         isGPSEnable = false;
 //                        initLBSManager();
                     }
@@ -1458,7 +1466,7 @@ public class UploadActivity extends AppCompatActivity {
                 return false;
             }
         }catch(Exception e){
-            //Toast.makeText(UploadActivity.this, "录入失败！", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(UploadActivity.this, "录入失败！", Toast.LENGTH_LONG).show();
             Log.e("TestFile", "Error on write File:" + e);
             return false;
         }
@@ -1542,6 +1550,13 @@ public class UploadActivity extends AppCompatActivity {
 
     public void refreshData(String msg, int port, String IPAddr){
         udpHelper.send(msg,port,IPAddr);
+        try{
+            tcpHelper.sendMsg(msg,IPAddr,port);
+        }catch (IOException e){
+            e.printStackTrace();
+            System.out.println("TCP MSG Send error!");
+        }
+
     }
 
     //Gps是否可用
