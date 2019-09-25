@@ -10,7 +10,9 @@
     <string name="thirty">30秒</string>
     <string name="sixty">60秒</string>
     <string name="user_name">车辆编号</string>
-    <string name="user_name_description">请输入用户名</string>
+    <string name="user_name_description">请输入车辆编号</string>
+    <string name="user_vin">车辆VIN号</string>
+    <string name="user_vin_description">请输入车辆VIN号</string>
     <string name="user_plate">车牌号</string>
     <string name="user_plate_description">请输入车牌号</string>
     <string name="user_model">车  型</string>

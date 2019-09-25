@@ -48,6 +48,16 @@
         android:layout_below="@id/user_plate"
         android:textSize="20sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_vin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/user_vin"
+        android:layout_below="@id/user_model"
+        android:textSize="20sp"/>
+
 
     <EditText
         android:id="@+id/editText_plate"
@@ -77,6 +87,20 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/editText_vin"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_model"
+        android:layout_alignLeft="@id/editText_model"
+        android:layout_alignBottom="@+id/user_vin"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/user_model"
+        android:layout_toRightOf="@+id/user_model"
+        android:contentDescription="@string/user_vin_description"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
         android:layout_width="180sp"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -96,7 +120,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:text="@string/wifiIp"
-        android:layout_below="@id/user_model"
+        android:layout_below="@id/user_vin"
         android:textSize="20sp"
         />
 

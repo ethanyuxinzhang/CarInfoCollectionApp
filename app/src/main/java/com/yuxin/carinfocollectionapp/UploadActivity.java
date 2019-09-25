@@ -53,6 +53,7 @@ public class UploadActivity extends AppCompatActivity {
     static String name = null;
     static String model = null;
     static String plate = null;
+    static String vin = null;
     static String AC_status = null;
     static String Passengers = null;
     static String fileName = null;
@@ -137,6 +138,7 @@ public class UploadActivity extends AppCompatActivity {
         name = bundleFromPreviousActivity.getString("name");
         model = bundleFromPreviousActivity.getString("model");
         plate = bundleFromPreviousActivity.getString("plate");
+        vin = bundleFromPreviousActivity.getString("vin");
         isNotification = bundleFromPreviousActivity.getBoolean("notification");
         sendIPAddress = bundleFromPreviousActivity.getString("IpAddr");
         sendPort = bundleFromPreviousActivity.getInt("port");
@@ -710,7 +712,7 @@ public class UploadActivity extends AppCompatActivity {
                     return;
                 }
                 String filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + "carInfo" + "/";
-                fileName = name + "_" + plate + "_" + model + "_" + dateTime + ".txt";
+                fileName = name + "_" + plate + "_" + vin + "_" + model + "_" + dateTime + ".txt";
                 try {
                     //fileName = String.encode(fileName,"UTF-8");
                     fileName = new String(fileName.getBytes("UTF-8"), "UTF-8");
@@ -841,7 +843,7 @@ public class UploadActivity extends AppCompatActivity {
                 }
 
                 String filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + "carInfo" + "/";
-                fileName = name + "_" + plate + "_" + model + "_" + dateTime + ".txt";
+                fileName = name + "_" + plate + "_" + vin + "_" + model + "_" + dateTime + ".txt";
                 try {
                     //fileName = String.encode(fileName,"UTF-8");
                     fileName = new String(fileName.getBytes("UTF-8"), "UTF-8");
@@ -971,6 +973,7 @@ public class UploadActivity extends AppCompatActivity {
                 final EditText re_model = (EditText) textEntryView.findViewById(R.id.editText_model);
                 final EditText re_name = (EditText) textEntryView.findViewById(R.id.editText_name);
                 final EditText re_plate = (EditText) textEntryView.findViewById(R.id.editText_plate);
+                final EditText re_vin = (EditText) textEntryView.findViewById(R.id.editText_vin);
                 final Button re_enter = (Button) textEntryView.findViewById(R.id.btn_enter);
                 final CheckBox cb_Notification = (CheckBox) textEntryView.findViewById(R.id.checkbox_notification);
 
@@ -984,6 +987,7 @@ public class UploadActivity extends AppCompatActivity {
                 re_name.setText(name);
                 re_model.setText(model);
                 re_plate.setText(plate);
+                re_vin.setText(vin);
                 if (isNotification) {
                     cb_Notification.setChecked(true);
                 } else {
@@ -996,12 +1000,13 @@ public class UploadActivity extends AppCompatActivity {
                         name = re_name.getText().toString();
                         model = re_model.getText().toString();
                         plate = re_plate.getText().toString();
-                        if ((name.length() >= 2) && (model.length() >= 2) && (plate.length() >= 2)) {
+                        vin = re_vin.getText().toString();
+                        if ((name.length() >= 2) && (model.length() >= 2) && (plate.length() >= 2) && (vin.length() >= 2)) {
                             writeData();
                             writeButton();
                             builder.setCancelable(false);
                             dialog.dismiss();
-                            System.out.println("Info: " + name + " " + model + " " + plate);
+                            System.out.println("Info: " + name + " " + model + " " + plate + " "+ vin);
                             sendMsg = SendMsgFormator();
                         } else {
                             writeButton();
@@ -1261,6 +1266,7 @@ public class UploadActivity extends AppCompatActivity {
         editor.putString("user_name", name);
         editor.putString("user_model", model);
         editor.putString("user_plate", plate);
+        editor.putString("user_vin", vin);
         //Need Test
 //        editor.putString("wifi_IpAddress",sendIPAddress);
 //        editor.putInt("wifi_Port",sendPort);
@@ -1547,6 +1553,7 @@ public class UploadActivity extends AppCompatActivity {
         editor.putString("user_name",name);
         editor.putString("user_model",model);
         editor.putString("user_plate",plate);
+        editor.putString("user_vin", vin);
         editor.putString("wifi_IpAddress",sendIPAddress);
         editor.putInt("wifi_Port",sendPort);
         editor.putInt("wifi_Delay",sendDelay);

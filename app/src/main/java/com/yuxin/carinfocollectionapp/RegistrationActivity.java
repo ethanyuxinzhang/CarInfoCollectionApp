@@ -32,6 +32,7 @@ public class RegistrationActivity extends AppCompatActivity {
     static String nameS = null;
     static String modelS = null;
     static String plateS = null;
+    static String vinS = null;
     static String IpAddrS = null;
     static int portS = 0;
     static int delayS = 0;
@@ -57,6 +58,7 @@ public class RegistrationActivity extends AppCompatActivity {
         final EditText name = (EditText)findViewById(R.id.editText_name);
         final EditText model = (EditText)findViewById(R.id.editText_model);
         final EditText plate = (EditText)findViewById(R.id.editText_plate);
+        final EditText vin = (EditText)findViewById(R.id.editText_vin);
         final Button enter = (Button)findViewById(R.id.btn_enter);
         final CheckBox cb_notification = (CheckBox)findViewById(R.id.checkbox_notification);
         //invoke check data method to see whether app has previous log msgs
@@ -65,10 +67,11 @@ public class RegistrationActivity extends AppCompatActivity {
         checkPermissions();
 
         //EditText Info
-        if(nameS!=""&&modelS!=""&&plateS!=""&&IpAddrS!=""&&portS!=0&&delayS!=0&&portS>1000){
+        if(nameS!=""&&modelS!=""&&plateS!=""&&vinS!=""&&IpAddrS!=""&&portS!=0&&delayS!=0&&portS>1000){
             name.setText(nameS);
             model.setText(modelS);
             plate.setText(plateS);
+            vin.setText(vinS);
             IpAddr.setText(IpAddrS);
             port.setText(String.valueOf(portS));
 
@@ -90,6 +93,7 @@ public class RegistrationActivity extends AppCompatActivity {
             bundle.putString("name",nameS);
             bundle.putString("model",modelS);
             bundle.putString("plate",plateS);
+            bundle.putString("vin", vinS);
             bundle.putString("IpAddr",IpAddrS);
             bundle.putInt("port", portS);
             bundle.putInt("delay",delayS);
@@ -117,6 +121,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 nameS = name.getText().toString();
                 modelS = model.getText().toString();
                 plateS = plate.getText().toString();
+                vinS = vin.getText().toString();
                 IpAddrS = IpAddr.getText().toString();
                 portS = Integer.parseInt(port.getText().toString());
                 int selectedId =delayRG.getCheckedRadioButtonId();
@@ -143,8 +148,8 @@ public class RegistrationActivity extends AppCompatActivity {
                 boolean ipValidation = matcher.matches();
 
                 //volumeS = volume.getText().toString();
-                System.out.println("Info: "+nameS+" "+modelS+" "+plateS);
-                if((nameS.length()>=2)&&(modelS.length()>=2)&&(plateS.length()>=2)&&ipValidation&&delayS!=0&&portS!=0&&portS>1000){
+                System.out.println("Info: "+nameS+" "+modelS+" "+plateS+" "+vinS);
+                if((nameS.length()>=2)&&(modelS.length()>=2)&&(plateS.length()>=2)&&(vinS.length()>=2)&&ipValidation&&delayS!=0&&portS!=0&&portS>1000){
                     //Store Data in SharedPreference
                     writeData();
                     System.out.println("Data Written !");
@@ -155,6 +160,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     bundle.putString("name",nameS);
                     bundle.putString("model",modelS);
                     bundle.putString("plate",plateS);
+                    bundle.putString("vin",vinS);
                     bundle.putString("IpAddr",IpAddrS);
                     bundle.putInt("port", portS);
                     bundle.putInt("delay",delayS);
@@ -260,6 +266,7 @@ public class RegistrationActivity extends AppCompatActivity {
         editor.putString("user_name",nameS);
         editor.putString("user_model",modelS);
         editor.putString("user_plate",plateS);
+        editor.putString("user_vin",vinS);
         editor.putBoolean("user_notification",isNotificationS);
         editor.putString("wifi_IpAddress",IpAddrS);
         editor.putInt("wifi_Port",portS);
@@ -273,6 +280,7 @@ public class RegistrationActivity extends AppCompatActivity {
         nameS = sharedPreferences.getString("user_name","");
         modelS = sharedPreferences.getString("user_model","");
         plateS = sharedPreferences.getString("user_plate","");
+        vinS = sharedPreferences.getString("user_vin","");
         IpAddrS = sharedPreferences.getString("wifi_IpAddress", "");
         portS = sharedPreferences.getInt("wifi_Port", 0);
         delayS = sharedPreferences.getInt("wifi_Delay",0);

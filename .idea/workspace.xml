@@ -10,10 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f25cb85-e530-48e2-ba5c-0f2d611f0326" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/中国工况空调乘客信息录入 APP version2 使用说明.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +52,14 @@
     <session id="1129557020">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,8 +67,8 @@
           <entry key="apk" value="1" />
           <entry key="class" value="18" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="30" />
-          <entry key="xml" value="31" />
+          <entry key="java" value="41" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,22 +76,22 @@
           <entry key="APK" value="1" />
           <entry key="CLASS" value="18" />
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="30" />
-          <entry key="XML" value="31" />
+          <entry key="JAVA" value="41" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6165" />
-          <entry key="xml" value="874" />
+          <entry key="java" value="6618" />
+          <entry key="xml" value="1164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6165" />
-          <entry key="XML" value="874" />
+          <entry key="JAVA" value="6618" />
+          <entry key="XML" value="1164" />
         </counts>
       </usages-collector>
     </session>
@@ -78,19 +99,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="571">
+              <caret line="70" column="13" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +113,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SimpleMailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1586">
+            <state relative-caret-position="721">
               <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SharedVariables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -120,85 +141,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/MailSenderInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
-                <element signature="e#2516#2517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="1588" column="5" selection-start-line="1588" selection-start-column="5" selection-end-line="1588" selection-end-column="5" />
-              <folding>
-                <element signature="e#12371#13133#0" expanded="true" />
-                <element signature="e#13132#13133#0" expanded="true" />
-                <element signature="e#13179#13940#0" expanded="true" />
-                <element signature="e#13939#13940#0" expanded="true" />
-                <element signature="e#13983#14984#0" expanded="true" />
-                <element signature="e#14983#14984#0" expanded="true" />
-                <element signature="e#15027#16064#0" expanded="true" />
-                <element signature="e#16063#16064#0" expanded="true" />
-                <element signature="e#16106#17143#0" expanded="true" />
-                <element signature="e#17142#17143#0" expanded="true" />
-                <element signature="e#17185#18222#0" expanded="true" />
-                <element signature="e#18221#18222#0" expanded="true" />
-                <element signature="e#18268#19306#0" expanded="true" />
-                <element signature="e#19305#19306#0" expanded="true" />
-                <element signature="e#19352#20413#0" expanded="true" />
-                <element signature="e#20412#20413#0" expanded="true" />
-                <element signature="e#20458#21519#0" expanded="true" />
-                <element signature="e#21518#21519#0" expanded="true" />
-                <element signature="e#21564#22625#0" expanded="true" />
-                <element signature="e#22624#22625#0" expanded="true" />
-                <element signature="e#22670#23730#0" expanded="true" />
-                <element signature="e#23729#23730#0" expanded="true" />
-                <element signature="e#23775#24835#0" expanded="true" />
-                <element signature="e#24834#24835#0" expanded="true" />
-                <element signature="e#25367#31433#0" expanded="true" />
-                <element signature="e#28122#28467#0" expanded="true" />
-                <element signature="e#28466#28467#0" expanded="true" />
-                <element signature="e#31432#31433#0" expanded="true" />
-                <element signature="e#31475#37411#0" expanded="true" />
-                <element signature="e#34227#34572#0" expanded="true" />
-                <element signature="e#34571#34572#0" expanded="true" />
-                <element signature="e#36459#36729#0" expanded="true" />
-                <element signature="e#36728#36729#0" expanded="true" />
-                <element signature="e#37410#37411#0" expanded="true" />
-                <element signature="e#37453#41375#0" expanded="true" />
-                <element signature="e#38994#39873#0" expanded="true" />
-                <element signature="e#39872#39873#0" expanded="true" />
-                <element signature="e#39926#41348#0" expanded="true" />
-                <element signature="e#41238#41252#0" expanded="true" />
-                <element signature="e#41347#41348#0" expanded="true" />
-                <element signature="e#41374#41375#0" expanded="true" />
-                <element signature="e#41412#46891#0" expanded="true" />
-                <element signature="e#42877#43879#0" expanded="true" />
-                <element signature="e#43769#43783#0" expanded="true" />
-                <element signature="e#43878#43879#0" expanded="true" />
-                <element signature="e#43941#46863#0" expanded="true" />
-                <element signature="e#46862#46863#0" expanded="true" />
-                <element signature="e#46890#46891#0" expanded="true" />
-                <element signature="e#46994#47437#0" expanded="true" />
-                <element signature="e#47436#47437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/TcpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -210,12 +155,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UdpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="317">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/PushService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/ExitApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/MailSenderInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#2340#2341#0" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
+                <element signature="e#2486#2487#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,8 +225,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>phoneTime</find>
-      <find>tv_GPS</find>
       <find>HEAT</find>
       <find>Info</find>
       <find>R.string.alert</find>
@@ -262,6 +253,8 @@
       <find>refreshData</find>
       <find>nameS</find>
       <find>udp</find>
+      <find>activity_re_registration</find>
+      <find>plate</find>
     </findStrings>
     <replaceStrings>
       <replace>LENGTH_LONG</replace>
@@ -269,8 +262,8 @@
     </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../Android KeyPath/carinfocollectionappKeyPath" />
-    <option name="KEY_ALIAS" value="carInfokey0" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../Android KeyPath/WeldReportKeyPath" />
+    <option name="KEY_ALIAS" value="IRT_WeldReport" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
@@ -288,29 +281,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SimpleMailSender.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/PushService.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UdpHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RefreshDataThread.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReveiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SharedVariables.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_upload.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wifilog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/ExitApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/TcpHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1866" />
+    <option name="x" value="64" />
     <option name="y" value="23" />
-    <option name="width" value="1866" />
+    <option name="width" value="1864" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -411,6 +404,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -422,7 +416,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,7 +427,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="ce041604d0bb880505" />
+    <property name="device.picker.selection" value="my_device" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -584,10 +577,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1866" y="23" width="1866" height="1057" extended-state="6" />
+    <frame x="57" y="23" width="1861" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21765351" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21770203" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -602,13 +596,13 @@
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.18471338" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.12314225" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32896176" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32875207" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
@@ -757,21 +751,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RefreshDataThread.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReveiver.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SharedVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -779,28 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1dabd1f9586629973d7d87a48e25042e/jars/classes.jar!/android/support/v7/widget/AppCompatEditText.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="34" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1dabd1f9586629973d7d87a48e25042e/jars/classes.jar!/android/support/v7/widget/AppCompatEditText.class" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wifilog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -869,10 +827,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state relative-caret-position="328">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_re_registration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <element signature="e#2150#2168#0" expanded="true" />
+            <element signature="e#3376#3406#0" expanded="true" />
+            <element signature="e#3940#3971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="e#2154#2172#0" expanded="true" />
+            <element signature="e#3816#3846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="1554" column="43" selection-start-line="1554" selection-start-column="38" selection-end-line="1554" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="290" column="5" lean-forward="true" selection-start-line="290" selection-start-column="5" selection-end-line="290" selection-end-column="5" />
+          <folding>
+            <element signature="e#3843#4239#0" expanded="true" />
+            <element signature="e#4238#4239#0" expanded="true" />
+            <element signature="e#4354#7483#0" expanded="true" />
+            <element signature="e#7482#7483#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,12 +897,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/PushService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/MailSenderInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="-143">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -903,49 +917,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/PushService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/MailSenderInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2516#2517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UdpHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="220">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/RegistrationActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="571">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SharedVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SimpleMailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
+        <state relative-caret-position="721">
           <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -955,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/TcpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -963,72 +964,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/SendEmail.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UdpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="64" />
+        <state relative-caret-position="317">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/UploadActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yuxin/carinfocollectionapp/WifiReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="1588" column="5" selection-start-line="1588" selection-start-column="5" selection-end-line="1588" selection-end-column="5" />
-          <folding>
-            <element signature="e#12371#13133#0" expanded="true" />
-            <element signature="e#13132#13133#0" expanded="true" />
-            <element signature="e#13179#13940#0" expanded="true" />
-            <element signature="e#13939#13940#0" expanded="true" />
-            <element signature="e#13983#14984#0" expanded="true" />
-            <element signature="e#14983#14984#0" expanded="true" />
-            <element signature="e#15027#16064#0" expanded="true" />
-            <element signature="e#16063#16064#0" expanded="true" />
-            <element signature="e#16106#17143#0" expanded="true" />
-            <element signature="e#17142#17143#0" expanded="true" />
-            <element signature="e#17185#18222#0" expanded="true" />
-            <element signature="e#18221#18222#0" expanded="true" />
-            <element signature="e#18268#19306#0" expanded="true" />
-            <element signature="e#19305#19306#0" expanded="true" />
-            <element signature="e#19352#20413#0" expanded="true" />
-            <element signature="e#20412#20413#0" expanded="true" />
-            <element signature="e#20458#21519#0" expanded="true" />
-            <element signature="e#21518#21519#0" expanded="true" />
-            <element signature="e#21564#22625#0" expanded="true" />
-            <element signature="e#22624#22625#0" expanded="true" />
-            <element signature="e#22670#23730#0" expanded="true" />
-            <element signature="e#23729#23730#0" expanded="true" />
-            <element signature="e#23775#24835#0" expanded="true" />
-            <element signature="e#24834#24835#0" expanded="true" />
-            <element signature="e#25367#31433#0" expanded="true" />
-            <element signature="e#28122#28467#0" expanded="true" />
-            <element signature="e#28466#28467#0" expanded="true" />
-            <element signature="e#31432#31433#0" expanded="true" />
-            <element signature="e#31475#37411#0" expanded="true" />
-            <element signature="e#34227#34572#0" expanded="true" />
-            <element signature="e#34571#34572#0" expanded="true" />
-            <element signature="e#36459#36729#0" expanded="true" />
-            <element signature="e#36728#36729#0" expanded="true" />
-            <element signature="e#37410#37411#0" expanded="true" />
-            <element signature="e#37453#41375#0" expanded="true" />
-            <element signature="e#38994#39873#0" expanded="true" />
-            <element signature="e#39872#39873#0" expanded="true" />
-            <element signature="e#39926#41348#0" expanded="true" />
-            <element signature="e#41238#41252#0" expanded="true" />
-            <element signature="e#41347#41348#0" expanded="true" />
-            <element signature="e#41374#41375#0" expanded="true" />
-            <element signature="e#41412#46891#0" expanded="true" />
-            <element signature="e#42877#43879#0" expanded="true" />
-            <element signature="e#43769#43783#0" expanded="true" />
-            <element signature="e#43878#43879#0" expanded="true" />
-            <element signature="e#43941#46863#0" expanded="true" />
-            <element signature="e#46862#46863#0" expanded="true" />
-            <element signature="e#46890#46891#0" expanded="true" />
-            <element signature="e#46994#47437#0" expanded="true" />
-            <element signature="e#47436#47437#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
         </state>
       </provider>
     </entry>
