@@ -1230,7 +1230,7 @@ public class UploadActivity extends AppCompatActivity {
             p = "4";
         }
 
-        String msg = header+";"+sysTime+";"+GPStime+";"+AC+";"+ACLevel+";"+p+";"+GPSLon+";"+GPSLat+";"+GPSSpeed+";"+"Check"+";"+"\r\n";
+        String msg = header+";"+sysTime+";"+GPStime+";"+AC+";"+ACLevel+";"+p+";"+GPSLon+";"+GPSLat+";"+GPSSpeed+";"+vin+";"+"Check"+";"+"\r\n";
 
         return msg;
 
